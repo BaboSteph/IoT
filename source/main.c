@@ -135,9 +135,6 @@ void app_main()
          printf("bme680:humidity:%s\n", bme680_humidity);
          printf("bme680:pressure:%s\n", bme680_pressure);
          printf("bme680:gas:%s\n", bme680_gas);
-
-      
-      
       
         if (vma311_data.status == VMA311_OK)
         {
